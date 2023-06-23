@@ -1,0 +1,1 @@
+rm *.o; R CMD SHLIB GARCH.c ran.c MCMC_MixGARCH.c MCMC_MixPartition.c

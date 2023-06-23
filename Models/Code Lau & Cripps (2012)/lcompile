@@ -1,0 +1,8 @@
+rm *.o
+
+/home/john/R-2.11.1/bin/R CMD SHLIB GARCH.c ran.c MCMC_MixGARCH.c MCMC_MixPartition.c\
+    -L/home/john/R-2.11.1/lib -lR -lRlapack -lRblas -lRmath\
+    -Wl,-rpath,/data1/john/R-2.11.1/lib
+
+ldd GARCH.so
+
