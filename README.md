@@ -1,4 +1,4 @@
-# DP-GARCH
+# DP-GARCH: Online Appendix
  
 This is the online appendix to "Dirichlet Process GARCH Mixtures for Volatility & Value-at-Risk Estimation", a semester project at ETH ZÜrich.
 
